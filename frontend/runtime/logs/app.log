@@ -1,0 +1,69 @@
+2015-07-23 14:07:28 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in D:\wamp\www\yii2\frontend\runtime\Smarty\compile\2952b9a45c23bc577775c430059f67788fd89848_0.file.index.tpl.php:60
+Stack trace:
+#0 D:\wamp\www\yii2\frontend\runtime\Smarty\compile\2952b9a45c23bc577775c430059f67788fd89848_0.file.index.tpl.php(60): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\wamp\\www\\yii...', 60, Array)
+#1 D:\wamp\www\yii2\vendor\smarty\smarty\libs\sysplugins\smarty_internal_template.php(371): content_55b084a06bfe06_58596902(Object(Smarty_Internal_Template))
+#2 D:\wamp\www\yii2\vendor\smarty\smarty\libs\sysplugins\smarty_template_compiled.php(202): Smarty_Internal_Template->getRenderedTemplateCode()
+#3 D:\wamp\www\yii2\vendor\smarty\smarty\libs\sysplugins\smarty_internal_template.php(246): Smarty_Template_Compiled->render(Object(Smarty_Internal_Template))
+#4 D:\wamp\www\yii2\vendor\smarty\smarty\libs\sysplugins\smarty_internal_template.php(142): Smarty_Internal_Template->render(true, false, false)
+#5 D:\wamp\www\yii2\vendor\yiisoft\yii2-smarty\ViewRenderer.php(253): Smarty_Internal_Template->fetch()
+#6 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\View.php(245): yii\smarty\ViewRenderer->render(Object(yii\web\View), 'D:\\wamp\\www\\yii...', Array)
+#7 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\wamp\\www\\yii...', Array, Object(frontend\controllers\VoteController))
+#8 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index.tpl', Array, Object(frontend\controllers\VoteController))
+#9 D:\wamp\www\yii2\frontend\controllers\VoteController.php(14): yii\base\Controller->render('index.tpl', Array)
+#10 [internal function]: frontend\controllers\VoteController->actionIndex()
+#11 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#12 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#13 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#14 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('vote/index', Array)
+#15 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+2015-07-23 14:07:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'PHPSESSID' => '6o47blj8a2tvob36k6lfaknaj6'
+    '_csrf' => 'af69ef5bf8dc7f703bd69dfec0aadc34b3c037e8fdb4dff37f760c0ed05d0145a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KK3Ogw_LhUh1l5mNVru59ua5FJGhAp1k\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; PHPSESSID=6o47blj8a2tvob36k6lfaknaj6; _csrf=af69ef5bf8dc7f703bd69dfec0aadc34b3c037e8fdb4dff37f760c0ed05d0145a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KK3Ogw_LhUh1l5mNVru59ua5FJGhAp1k%22%3B%7D'
+    'HTTP_RA_VER' => '3.0.4'
+    'HTTP_RA_SID' => 'B7819742-20141204-030122-e03337-7d9a5f'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '62803'
+    'REDIRECT_URL' => '/yii2/frontend/web/vote/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/vote/index'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1437631647.865
+    'REQUEST_TIME' => 1437631647
+]

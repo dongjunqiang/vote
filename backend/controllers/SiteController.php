@@ -12,6 +12,7 @@ use yii\filters\VerbFilter;
  */
 class SiteController extends Controller
 {
+    public $layout = false;
     /**
      * @inheritdoc
      */
@@ -79,5 +80,15 @@ class SiteController extends Controller
         Yii::$app->user->logout();
 
         return $this->goHome();
+    }
+
+    public function ajaxOut($message = '操作成功', $statusCode = 200)
+    {
+        return json_encode(array(
+            'statusCode' => (int)$statusCode,
+            'message' => $message,
+            'tabid' => '',
+            'closeCurrent' => false,
+        ));
     }
 }

@@ -41,6 +41,7 @@ class Vote extends \yii\db\ActiveRecord
     {
         return [
             [['type','total_votes','fake_ip'], 'integer'],
+            [['url'], 'url'],
             [['url', 'params'], 'required'],
             [['type','fake_ip'], 'in', 'range' => [0,1]],
             [['params'], 'string'],
@@ -69,6 +70,7 @@ class Vote extends \yii\db\ActiveRecord
 
     public function beforeSave($insert){
         if(parent::beforeSave($insert)){
+            //操作是修改的话，添加修改时间
             if(!$insert){
                 $this->modify_time = date('Y-m-d H:i:s');
             }
