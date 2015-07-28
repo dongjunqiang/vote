@@ -29,4 +29,5 @@ phpunit.phar
 # local phpunit config
 /phpunit.xml
 
-/frontend/runtime/cache
+/frontend/runtime
+/learn/runtime
