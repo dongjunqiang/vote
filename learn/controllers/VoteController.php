@@ -2,12 +2,12 @@
 
 namespace learn\controllers;
 
-use Yii;
 use learn\models\Vote;
 use learn\models\VoteSearch;
+use Yii;
+use yii\filters\VerbFilter;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-use yii\filters\VerbFilter;
 
 /**
  * VoteController implements the CRUD actions for Vote model.
@@ -17,6 +17,11 @@ class VoteController extends Controller
     public function behaviors()
     {
         return [
+            // [
+            //     'class' => 'yii\filters\PageCache',
+            //     'duration' => 10,
+            //     'only' => ['view'],
+            // ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [

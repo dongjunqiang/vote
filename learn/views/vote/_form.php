@@ -22,7 +22,7 @@ use yii\widgets\ActiveForm;
     <?php $model->fake_ip = $model->isNewRecord ? 0 : $model->fake_ip;?>
     <?= $form->field($model, 'fake_ip')->radioList([0=>'否', 1=>'是']) ?>
 
-    <?= $form->field($model, 'total_votes')->textInput() ?>
+    <?= $form->field($model, 'total_votes')->textInput(['value'=>$model->isNewRecord ? 1 : $model->total_votes]) ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

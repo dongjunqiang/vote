@@ -27,7 +27,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
             //'id',
             'url:url',
-            'type',
+            [
+                'attribute' => 'type',
+                'label'=>'传输方式',
+                'value' => function($data){
+                    return $data->type == 0 ? 'get' : 'post';
+                }
+            ],
             //'params:ntext',
             'total_votes',
             'has_votes',

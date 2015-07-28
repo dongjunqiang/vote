@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Vote */
+/* @var $model learn\models\Vote */
 
 $this->title = $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Votes', 'url' => ['index']];
@@ -30,7 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'attributes' => [
             'id',
             'url:url',
-            'type',
+            ['label'=>'传输方式','value'=>$model->type == 0 ? 'get' : 'post'],
             'params:ntext',
             'total_votes',
             'has_votes',
