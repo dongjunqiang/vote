@@ -14,7 +14,7 @@ return [
     'components' => [
         'view' => [
             'theme' => [
-                'pathMap' => ['@app/views' => '@app/themes/default'],
+                'pathMap' => ['@frontend/views' => '@frontend/themes/default'],
                 'baseUrl' => '@web/themes/default'
             ],
         ],
@@ -33,6 +33,15 @@ return [
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',
+        ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'enableStrictParsing' => false,
+            'rules' => [
+                'content/<action:\w+>/<id:\d+>/<page:\d+>' => 'content/<action>',
+                '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+            ],
         ],
     ],
     'params' => $params,

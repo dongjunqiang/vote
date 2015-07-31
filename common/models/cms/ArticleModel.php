@@ -53,4 +53,9 @@ class ArticleModel extends \yii\db\ActiveRecord
             'add_time' => '添加时间',
         ];
     }
+
+    public function getContent()
+    {
+        return $this->hasOne(ArticleContentModel::className(), ['article_id' => 'id'])->select('content');
+    }
 }

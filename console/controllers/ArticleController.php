@@ -19,7 +19,21 @@ class ArticleController extends \yii\console\Controller
 
     public function actionIndex()
     {
-        foreach (UrlHistoryModel::find()->select('id, keyword_id, copyfrom, url')->where(array('status' => 0))->asArray()->limit(10)->each(10) as $urls) {
+        //self::collect();
+    }
+
+    public function actionCollectByKeywordId($keywordId)
+    {
+        $where = ['keyword_id' => $keywordId, 'status' => 0];
+        self::collect($where);
+    }
+
+    private static function collect($where = [])
+    {
+        if (!$where) {
+            $where = ['status' => 0];
+        }
+        foreach (UrlHistoryModel::find()->select('id, keyword_id, copyfrom, url')->where($where)->asArray()->limit(10)->each(10) as $urls) {
             $data = file_get_contents(self::API_URL.$urls['url']);
             if ($data) {
                 $data = json_decode($data, true);
@@ -31,7 +45,7 @@ class ArticleController extends \yii\console\Controller
                     $model = new ArticleModel();
                     $model->title = $data['title'];
                     $model->keyword_id = $urls['keyword_id'];
-                    $model->description = StringHelper::truncate($data['content'], 200);
+                    $model->description = StringHelper::truncate(str_replace(array("'","\r\n","\t",'&ldquo;','&rdquo;','&nbsp;'), '', strip_tags($data['content'])), 200);
                     $model->copyfrom = $urls['copyfrom'];
                     $model->save();
                     if ($model->id) {
