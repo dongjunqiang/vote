@@ -38,6 +38,7 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'enableStrictParsing' => false,
+            'suffix' => '.html',
             'rules' => [
                 'content/<action:\w+>/<id:\d+>/<page:\d+>' => 'content/<action>',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',

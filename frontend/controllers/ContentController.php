@@ -1,7 +1,9 @@
 <?php
 namespace frontend\controllers;
 
+use common\api\cms\ArticleApi;
 use common\components\CmsPagination;
+use common\helpers\RelatedWords;
 use Yii;
 use frontend\components\BaseController;
 use common\api\cms\KeywordApi;
@@ -45,7 +47,6 @@ class ContentController extends BaseController
             'params' => [
                 'id' => $id,
             ],
-            //'forcePageParam' => false,
             'defaultPageSize' => 10,
         ]);
 
@@ -66,6 +67,14 @@ class ContentController extends BaseController
     {
         $data = ArticleModel::find()->where(['id' => $id, 'status' => 1])->with('content')->asArray()->one();
         $category = KeywordApi::getCategoryInfo($data['keyword_id']);
+
+        //获取相关词
+        //$relates = RelatedWords::getWords($category['keyword']);
+//        var_dump($relates);
+
+        //$articles = ArticleApi::getRelatedArticles($data['keyword_id']);
+        //var_dump($articles);
+
         return $this->render('show', compact('data', 'category'));
     }
 }

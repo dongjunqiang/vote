@@ -6,6 +6,7 @@
  */
 namespace common\api\cms;
 
+use common\models\cms\HitsModel;
 use Yii;
 use common\models\cms\Keyword;
 use yii\helpers\ArrayHelper;
@@ -45,6 +46,17 @@ class KeywordApi
             }
         }
         return $cache;
+    }
+
+    /**
+     * 获取热门关键词
+     * @param int $num 数量
+     * @param string $order 排序规则
+     */
+    public static function getHotKeywords($num = 10, $order = 'views')
+    {
+        $from = $order == 'views' ? 'hits force INDEX(i_views)' : 'hits force INDEX(i_month)';
+        return HitsModel::find()->select('kid')->from($from)->where(['aid' => 0])->orderBy([$order => SORT_DESC])->with('keywordInfo')->asArray()->limit($num)->all();
     }
 
     private static function addCache($category, $data)

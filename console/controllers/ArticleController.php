@@ -7,6 +7,7 @@
  */
 namespace console\controllers;
 
+use common\components\Attachment;
 use common\models\cms\ArticleContentModel;
 use common\models\cms\ArticleModel;
 use common\models\cms\UrlHistoryModel;
@@ -47,11 +48,19 @@ class ArticleController extends \yii\console\Controller
                     $model->keyword_id = $urls['keyword_id'];
                     $model->description = StringHelper::truncate(str_replace(array("'","\r\n","\t",'&ldquo;','&rdquo;','&nbsp;'), '', strip_tags($data['content'])), 200);
                     $model->copyfrom = $urls['copyfrom'];
+
+                    $content = Attachment::downloadThumb($data['content']);
+                    $thumb = self::getFirstPic($content);
+                    if (Attachment::checkPicWidth($thumb)) {
+                        $model->thumb = $thumb;
+                    }
+
                     $model->save();
+
                     if ($model->id) {
                         $dataModel = new ArticleContentModel();
                         $dataModel->article_id = $model->id;
-                        $dataModel->content = $data['content'];
+                        $dataModel->content = $content;
                         $dataModel->save();
                         UrlHistoryModel::updateAll(['status' => 1], array('id' => $urls['id']));
                     }
@@ -59,6 +68,13 @@ class ArticleController extends \yii\console\Controller
                     \yii::error("文章插入失败\n原因:{$e->getMessage()}\n");
                 }
             }
+        }
+    }
+
+    private static function getFirstPic($content)
+    {
+        if (preg_match("/(src)=([\"|']?)([^ \"'>]+\.(gif|jpg|jpeg|bmp|png))\\2/i", $content, $match)) {
+            return $match[3];
         }
     }
 }

@@ -15,11 +15,9 @@ XzpAsset::register($this);
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <title>柚子皮</title>
+    <title><?=isset($this->title) ? $this->title : Yii::$app->params['title']?></title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
-    <meta name="description" content="柚子皮，互联网的运营笔记！" />
-    <meta name="keywords" content="柚子皮，互联网运营，网络营销" />
     <?php $this->head() ?>
 </head>
 <body>
@@ -27,29 +25,25 @@ XzpAsset::register($this);
 <header id="header-web">
     <div class="header-main">
         <hgroup class="logo">
-            <h1><a href="http://www.yzipi.com/" title="柚子皮" rel="home"><img src="http://www.yzipi.com/wp-content/themes/yzipi/images/logo.png" alt="柚子皮"></a></h1>
-            <h3>
-                互联网的运营笔记！      </h3>
+            <h1><a href="<?=Yii::$app->params['webUrl']?>" title="<?=Yii::$app->params['title']?>" rel="home"><img src="http://www.yzipi.com/wp-content/themes/yzipi/images/logo.png" alt="<?=Yii::$app->params['title']?>"></a></h1>
+            <h3>互联网的运营笔记！</h3>
         </hgroup>
         <!--logo-->
         <nav class="header-nav">
-            <ul id="menu-nav" class="menu"><li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4"><a href="http://www.yzipi.com/">首页</a></li>
+            <ul id="menu-nav" class="menu"><li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4"><a href="<?=Yii::$app->params['webUrl']?>">首页</a></li>
                 <li id="menu-item-31" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31"><a title="运营观点与思想" href="http://www.yzipi.com/category/view">观点</a></li>
                 <li id="menu-item-668" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-668"><a title="营销思想" href="http://www.yzipi.com/category/marketing">营销</a></li>
                 <li id="menu-item-2013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2013"><a href="http://www.yzipi.com/recommend">推荐</a></li>
                 <li id="menu-item-1958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1958"><a title="热门随机文章" href="http://www.yzipi.com/hotrandom">热文</a></li>
             </ul>    </nav>
         <!--header-nav-->
-        <div class="weibo">
-            <a href="http://www.yzipi.com/feed" target="_blank"><img src="http://www.yzipi.com/wp-content/themes/yzipi/images/rss.png"></a>
-        </div>
         <!--header-main-->
     </div>
 </header>
 <!--header-web-->
 <div id="main">
     <div id="soutab">
-        <form method="get" class="search" action="http://www.yzipi.com/" >
+        <form method="get" class="search" action="<?=Yii::$app->params['title']?>" >
             <input class="text" type="text" name="s" placeholder="搜索一下">
             <input class="button" value="搜索" type="submit">
         </form>
@@ -60,20 +54,20 @@ XzpAsset::register($this);
     <!--Container-->
     <aside id="sitebar">
         <div class="erweima"><a href="#0" class="cd-popup-trigger"><img src="http://www.yzipi.com/wp-content/themes/yzipi/images/erweima.png" ></a></div>
-
         <!--erweima-->
-        <div class="sitebar_list"><div class="wptag"> <span class="tagtitle">名家导读+</span>
+        <div class="sitebar_list"><div class="wptag"> <span class="tagtitle">热门关键词+</span>
                 <div class="tagg">
-                    <ul id="menu-%e5%90%8d%e5%ae%b6%e5%af%bc%e8%af%bb" class="menu"><li id="menu-item-1365" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1365"><a href="http://www.yzipi.com/tag/%e5%91%a8%e9%b8%bf%e7%a5%8e">周鸿祎</a></li>
-                        <li id="menu-item-1366" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1366"><a href="http://www.yzipi.com/tag/%e9%a9%ac%e5%8c%96%e8%85%be">马化腾</a></li>
-                        <li id="menu-item-1370" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1370"><a href="http://www.yzipi.com/tag/%e5%8f%b2%e7%8e%89%e6%9f%b1">史玉柱</a></li>
-                        <li id="menu-item-1369" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1369"><a href="http://www.yzipi.com/tag/%e9%a9%ac%e4%ba%91">马云</a></li>
-                        <li id="menu-item-1372" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1372"><a href="http://www.yzipi.com/tag/%e6%9d%8e%e6%83%b3">李想</a></li>
-                        <li id="menu-item-1367" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1367"><a href="http://www.yzipi.com/tag/%e9%99%88%e6%b5%a9%e5%a2%a9">陈浩墩</a></li>
-                        <li id="menu-item-1371" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1371"><a href="http://www.yzipi.com/tag/%e6%9d%8e%e5%bd%a6%e5%ae%8f">李彦宏</a></li>
-                        <li id="menu-item-1373" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1373"><a href="http://www.yzipi.com/tag/%e5%bc%a0%e5%b0%8f%e9%be%99">张小龙</a></li>
-                        <li id="menu-item-1706" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1706"><a href="http://www.yzipi.com/tag/%e5%88%98%e5%bc%ba%e4%b8%9c">刘强东</a></li>
-                    </ul>    </div>
+                    <ul id="menu-keywords" class="menu">
+                    <?php if ($this->beginCache('hot_keywords', ['duration' => 3600])):?>
+                        <?php foreach (\common\api\cms\KeywordApi::getHotKeywords() as $r):?>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="<?=\yii\helpers\Url::to(['content/show','id'=>$r['keywordInfo']['id']])?>"><?=$r['keywordInfo']['keyword']?></a></li>
+                        <?php
+                        endforeach;
+                        $this->endCache();
+                        endif;
+                    ?>
+                    </ul>
+                </div>
                 <span class="tagtitle">特色词组+</span>
                 <div class="tagg">
                     <ul id="menu-tag" class="menu"><li id="menu-item-1504" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1504"><a href="http://www.yzipi.com/category/duanzi">柚段子</a></li>
@@ -102,7 +96,6 @@ XzpAsset::register($this);
             </ul>
         </div>
         <!--random-->
-
     </aside>
     <div class="clear"></div>
 </div>

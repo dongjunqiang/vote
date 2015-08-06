@@ -3,15 +3,13 @@ use \Yii;
 use \yii\helpers\StringHelper;
 ?>
 <?php $baseUrl = Yii::$app->getView()->theme->baseUrl;?>
-<nav id="mbx">当前位置：<a href="<?=Yii::$app->params['webUrl']?>">
-        首页
-    </a> &gt; <a href="<?=\yii\helpers\Url::to(['content/list', 'id' => $id])?>"><?=$category['keyword']?></a></nav>
+<nav id="mbx">当前位置：<a href="<?=Yii::$app->params['webUrl']?>">首页</a> &gt; <a href="<?=\yii\helpers\Url::to(['content/list', 'id' => $id])?>"><?=$category['keyword']?></a></nav>
 <?php if ($lists):?>
     <?php foreach ($lists as $list):?>
     <section class="archive-list">
         <div class="titleimg">
             <a href="<?=\yii\helpers\Url::to(['content/show', 'id' => $list['id']])?>">
-                <img width="270" height="165" src="<?php echo $list['thumb'] ? $list['thumb'] : $baseUrl.'/images/default.png'; ?>" class="attachment-thumbnail wp-post-image" alt="rfedfre" />
+                <img width="270" height="165" src="<?php echo $list['thumb'] ? $list['thumb'] : $baseUrl.'/images/default.png'; ?>" class="attachment-thumbnail wp-post-image" alt="<?=\yii\helpers\Html::encode($list['title'])?>" />
             </a>
         </div>
         <div class="mecc">
@@ -44,3 +42,4 @@ use \yii\helpers\StringHelper;
     ]
 ])?>
 <!--Page End-->
+<script src="<?=\yii\helpers\Url::to(['api/count', 'keywordId'=>$id])?>"></script>
