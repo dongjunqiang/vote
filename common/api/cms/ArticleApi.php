@@ -7,6 +7,7 @@
 namespace common\api\cms;
 
 use common\models\cms\ArticleModel;
+use common\models\cms\HitsModel;
 
 class ArticleApi
 {
@@ -44,5 +45,17 @@ class ArticleApi
     {
         $data = ArticleModel::find()->select('id, title')->where(['>', 'id', $articleId])->andWhere(['status' => 1])->orderBy('id ASC')->asArray()->one();
         return $data ?: '没有了';
+    }
+
+    /**
+     * 获取热门文章
+     * @param int $num
+     * @param string $order
+     * @return mixed
+     */
+    public static function getHotArticle($num = 10, $order = 'views')
+    {
+        $from = $order == 'views' ? 'hits force INDEX(i_views)' : 'hits force INDEX(i_month)';
+        return HitsModel::find()->select('aid')->from($from)->where('aid != 0')->orderBy([$order => SORT_DESC])->with('articleInfo')->asArray()->limit($num)->all();
     }
 }

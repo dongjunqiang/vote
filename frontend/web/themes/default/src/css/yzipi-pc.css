@@ -38,6 +38,7 @@
 	font-weight: normal;
 	font-size: 14px;
 	letter-spacing: 0.5px;
+	margin-left: 15px;
 }
 .logo2 {
 	text-align: center;
@@ -831,7 +832,7 @@
 	display: block;
 	height: 32px;
 	line-height: 32px;
-	padding: 0 21px;
+	padding: 0 16px;
 	border-radius: 3px;
 	transition: background 0.2s;
 	font-size: 14px;

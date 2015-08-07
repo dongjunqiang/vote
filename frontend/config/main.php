@@ -44,6 +44,15 @@ return [
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
             ],
         ],
+        'assetManager' => [
+            'bundles' => [
+                // you can override AssetBundle configs here
+                'yii\web\JqueryAsset' => [
+                    'sourcePath' => '@webroot/themes/default/js',
+                    'js' => ['jquery.min.js']
+                ],
+            ],
+        ],
     ],
     'params' => $params,
 ];

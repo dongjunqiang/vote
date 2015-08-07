@@ -21,9 +21,7 @@ class XzpAsset extends AssetBundle
         'themes/default/css/main.min.css',
     ];
     public $js = [
-        'themes/default/js/html5shiv.js',
-        'themes/default/js/selectivizr-min.js',
-        'themes/default/js/jquery.1.11.1.js',
+        'themes/default/js/base.min.js',
         'themes/default/js/main.min.js'
     ];
     public $depends = [

@@ -54,6 +54,11 @@ class HitsModel extends \yii\db\ActiveRecord
         return $this->hasOne(Keyword::className(), ['id' => 'kid']);
     }
 
+    public function getArticleInfo()
+    {
+        return $this->hasOne(ArticleModel::className(), ['id' => 'aid']);
+    }
+
     /**
      * 添加统计
      * @param $keywordId

@@ -7,14 +7,25 @@ module.exports = function(grunt) {
                 banner: '/* create at <%= grunt.template.today("yyyy-mm-dd")%> */\n'
             },
             my_target: {
-                //options: {
-                //    mangle: false
-                //},
+                options: {
+                    mangle: false
+                },
                 files: {
-                    'js/main.min.js': ['js/css3-mediaqueries.js','js/main.js']
+                    'js/main.min.js': ['src/js/main.js'],
+					'js/css3-mediaqueries.js': ['src/js/css3-mediaqueries.js'],
                 }
             }
         },
+		concat: {
+			options: {
+				//separator: ';',
+				stripBanners: true,
+			},
+			dist: {
+				src: ['js/html5shiv.js', 'js/selectivizr-min.js', 'js/css3-mediaqueries.js'],
+				dest: 'js/base.min.js',
+			},
+		},
         //压缩css
         cssmin: {
             options: {
@@ -57,7 +68,7 @@ module.exports = function(grunt) {
         //自动监视文件变化
         watch: {
             scripts: {
-                files: ['js/*.js', 'css/*.css'],
+                files: ['src/js/*.js', 'src/css/*.css'],
                 tasks: ['uglify', 'cssmin'],
                 options: {
                   spawn: false,
@@ -71,7 +82,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
+	grunt.loadNpmTasks('grunt-contrib-concat');
 
-    grunt.registerTask('default', ['jshint', 'uglify', 'cssmin', 'imagemin'/*, 'watch'*/]);
-    //grunt.registerTask('watch', ['watch']);
+    grunt.registerTask('default', ['jshint', 'uglify', 'concat', 'cssmin', 'imagemin', 'watch']);
+//    grunt.registerTask('watch', ['watch']);
 };
