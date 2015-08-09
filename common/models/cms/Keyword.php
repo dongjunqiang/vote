@@ -54,4 +54,10 @@ class Keyword extends \yii\db\ActiveRecord
             'add_time' => '添加时间',
         ];
     }
+
+    public function getFirstArticle()
+    {
+        return $this->hasOne(ArticleModel::className(), ['keyword_id' => 'id'])->orderBy('id DESC');
+    }
 }
+

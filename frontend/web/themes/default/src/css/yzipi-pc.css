@@ -390,6 +390,13 @@
 	-moz-transition: rotatey(360deg);
 	-o-transition: rotatey(360deg);
 }
+#container .list h2 {
+	width: auto;
+	height: 50px;
+	line-height: 50px;
+	color: #d6623d;
+	background: #f7f7f7;
+}
 /*main-container-pagenavi*/
 .pagenavi {
 	margin-top: 25px;

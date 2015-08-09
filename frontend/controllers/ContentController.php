@@ -16,20 +16,20 @@ class ContentController extends BaseController
 {
     public $layout = 'yzpLayout.php';
 
-    public function behaviors()
-    {
-        return [
-            [
-                'class' => 'yii\filters\PageCache',
-                'only' => ['index'],
-                'duration' => 60,
-                'dependency' => [
-                    'class' => 'yii\caching\DbDependency',
-                    'sql' => 'SELECT COUNT(*) FROM keyword',
-                ],
-            ]
-        ];
-    }
+//    public function behaviors()
+//    {
+//        return [
+//            [
+//                'class' => 'yii\filters\PageCache',
+//                'only' => ['index'],
+//                'duration' => 60,
+//                'dependency' => [
+//                    'class' => 'yii\caching\DbDependency',
+//                    'sql' => 'SELECT COUNT(*) FROM keyword',
+//                ],
+//            ]
+//        ];
+//    }
 
     /**
      * @inheritdoc
@@ -46,7 +46,7 @@ class ContentController extends BaseController
     //首页
     public function actionIndex($page = 1)
     {
-        $query = Keyword::find()->where(['status' => 1]);
+        $query = Keyword::find()->where(['keyword.status' => 1]);
 
         $pages = new CmsPagination([
             'totalCount' => $query->count(),
@@ -54,8 +54,9 @@ class ContentController extends BaseController
         ]);
 
         $lists = $query
-            ->select('id, keyword')
-            ->orderBy('id DESC')
+            ->select('keyword.id, keyword')
+            ->with('firstArticle')
+            ->orderBy('keyword.id DESC')
             ->offset($pages->offset)
             ->limit($pages->limit)
             ->asArray()

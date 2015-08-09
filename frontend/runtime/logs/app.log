@@ -4371,3 +4371,1218 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1439089081.236
     'REQUEST_TIME' => 1439089081
 ]
+2015-08-09 17:34:35 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'common\models\cms\Keyword has no relation named "firstArticle".' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php:1131
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(196): yii\db\BaseActiveRecord->getRelation('firstArticle')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(163): yii\db\ActiveQuery->normalizeRelations(Object(common\models\cms\Keyword), Array)
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(225): yii\db\ActiveQuery->findWith(Array, Array)
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(207): yii\db\ActiveQuery->populate(Array)
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all(NULL)
+#5 E:\wamp\www\vote\frontend\controllers\ContentController.php(63): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\ContentController->actionIndex(1)
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-08-09 17:34:34 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/list_1.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '60312'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439134474.945
+    'REQUEST_TIME' => 1439134474
+]
+2015-08-09 17:36:14 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: common\models\cms\Keyword::getfirstArticle()' in E:\wamp\www\vote\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php(1121): yii\base\Component->__call('getfirstArticle', Array)
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php(1121): common\models\cms\Keyword->getfirstArticle()
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(196): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(163): yii\db\ActiveQuery->normalizeRelations(Object(common\models\cms\Keyword), '[<span class="s...')
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(225): yii\db\ActiveQuery->findWith('[<span class="s...', '[[<span class="...')
+#5 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(207): yii\db\ActiveQuery->populate('[[<span class="...')
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#7 E:\wamp\www\vote\frontend\controllers\ContentController.php(63): yii\db\ActiveQuery->all()
+#8 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#11 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#12 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#13 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\base\InvalidParamException' with message 'common\models\cms\Keyword has no relation named "firstArticle".' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php:1124
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(196): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(163): yii\db\ActiveQuery->normalizeRelations(Object(common\models\cms\Keyword), '[<span class="s...')
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(225): yii\db\ActiveQuery->findWith('[<span class="s...', '[[<span class="...')
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(207): yii\db\ActiveQuery->populate('[[<span class="...')
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#5 E:\wamp\www\vote\frontend\controllers\ContentController.php(63): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#11 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-08-09 17:36:14 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/list_1.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '60325'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439134574.709
+    'REQUEST_TIME' => 1439134574
+]
+2015-08-09 17:36:36 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'common\models\cms\Keyword has no relation named "FirstArticle".' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php:1131
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(196): yii\db\BaseActiveRecord->getRelation('FirstArticle')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(163): yii\db\ActiveQuery->normalizeRelations(Object(common\models\cms\Keyword), Array)
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(225): yii\db\ActiveQuery->findWith(Array, Array)
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(207): yii\db\ActiveQuery->populate(Array)
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all(NULL)
+#5 E:\wamp\www\vote\frontend\controllers\ContentController.php(63): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\ContentController->actionIndex(1)
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-08-09 17:36:35 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/list_1.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '60332'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439134595.865
+    'REQUEST_TIME' => 1439134595
+]
+2015-08-09 17:41:08 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'common\models\cms\Keyword has no relation named "firstArticle".' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php:1131
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(196): yii\db\BaseActiveRecord->getRelation('firstArticle')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(163): yii\db\ActiveQuery->normalizeRelations(Object(common\models\cms\Keyword), Array)
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(225): yii\db\ActiveQuery->findWith(Array, Array)
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(207): yii\db\ActiveQuery->populate(Array)
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all(NULL)
+#5 E:\wamp\www\vote\frontend\controllers\ContentController.php(63): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\ContentController->actionIndex(1)
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-08-09 17:41:07 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/list_1.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '60403'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439134867.875
+    'REQUEST_TIME' => 1439134867
+]
+2015-08-09 17:41:29 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: common\models\cms\Keyword::getgetFirstArticle()' in E:\wamp\www\vote\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php(1121): yii\base\Component->__call('getgetFirstArti...', Array)
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php(1121): common\models\cms\Keyword->getgetFirstArticle()
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(196): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(163): yii\db\ActiveQuery->normalizeRelations(Object(common\models\cms\Keyword), '[<span class="s...')
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(225): yii\db\ActiveQuery->findWith('[<span class="s...', '[[<span class="...')
+#5 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(207): yii\db\ActiveQuery->populate('[[<span class="...')
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#7 E:\wamp\www\vote\frontend\controllers\ContentController.php(63): yii\db\ActiveQuery->all()
+#8 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#11 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#12 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#13 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\base\InvalidParamException' with message 'common\models\cms\Keyword has no relation named "getFirstArticle".' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php:1124
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(196): yii\db\BaseActiveRecord->getRelation('<span class="st...')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(163): yii\db\ActiveQuery->normalizeRelations(Object(common\models\cms\Keyword), '[<span class="s...')
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(225): yii\db\ActiveQuery->findWith('[<span class="s...', '[[<span class="...')
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(207): yii\db\ActiveQuery->populate('[[<span class="...')
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#5 E:\wamp\www\vote\frontend\controllers\ContentController.php(63): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#11 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-08-09 17:41:29 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/list_1.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '60412'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439134889.571
+    'REQUEST_TIME' => 1439134889
+]
+2015-08-09 17:41:52 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'common\models\cms\Keyword has no relation named "FirstArticle".' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php:1131
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(196): yii\db\BaseActiveRecord->getRelation('FirstArticle')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(163): yii\db\ActiveQuery->normalizeRelations(Object(common\models\cms\Keyword), Array)
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(225): yii\db\ActiveQuery->findWith(Array, Array)
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(207): yii\db\ActiveQuery->populate(Array)
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all(NULL)
+#5 E:\wamp\www\vote\frontend\controllers\ContentController.php(63): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\ContentController->actionIndex(1)
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-08-09 17:41:51 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/list_1.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '60421'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439134911.987
+    'REQUEST_TIME' => 1439134911
+]
+2015-08-09 17:42:26 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'common\models\cms\Keyword has no relation named "FirstArticle".' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php:1131
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(196): yii\db\BaseActiveRecord->getRelation('FirstArticle')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(163): yii\db\ActiveQuery->normalizeRelations(Object(common\models\cms\Keyword), Array)
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(225): yii\db\ActiveQuery->findWith(Array, Array)
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(207): yii\db\ActiveQuery->populate(Array)
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all(NULL)
+#5 E:\wamp\www\vote\frontend\controllers\ContentController.php(63): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\ContentController->actionIndex(1)
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-08-09 17:42:26 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/list_1.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '60435'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439134946.008
+    'REQUEST_TIME' => 1439134946
+]
+2015-08-09 17:42:50 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'common\models\cms\Keyword has no relation named "first".' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php:1131
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(196): yii\db\BaseActiveRecord->getRelation('first')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(163): yii\db\ActiveQuery->normalizeRelations(Object(common\models\cms\Keyword), Array)
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(225): yii\db\ActiveQuery->findWith(Array, Array)
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(207): yii\db\ActiveQuery->populate(Array)
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all(NULL)
+#5 E:\wamp\www\vote\frontend\controllers\ContentController.php(63): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\ContentController->actionIndex(1)
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-08-09 17:42:49 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/list_1.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '60444'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439134969.858
+    'REQUEST_TIME' => 1439134969
+]
+2015-08-09 18:07:33 [::1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#4 E:\wamp\www\vote\frontend\controllers\ContentController.php(65): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous
+The SQL being executed was: SELECT `id`, `keyword` FROM `keyword` INNER JOIN `article` ON `keyword`.`id` = `article`.`keyword_id` WHERE `status`=1 ORDER BY `id` DESC LIMIT 10' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `id`, `k...')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#4 E:\wamp\www\vote\frontend\controllers\ContentController.php(65): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1052
+    [2] => Column 'id' in field list is ambiguous
+)
+
+2015-08-09 18:07:33 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+    '_csrf' => '59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Oz2lOMw071K-lIOD7Q158Uo7Iqkci19\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/debug/default/view.html?panel=db&tag=55c777d67946d'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347; _csrf=59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Oz2lOMw071K-lIOD7Q158Uo7Iqkci19%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '60951'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439136453.054
+    'REQUEST_TIME' => 1439136453
+]
+2015-08-09 18:08:27 [::1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#4 E:\wamp\www\vote\frontend\controllers\ContentController.php(65): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous
+The SQL being executed was: SELECT `id`, `keyword` FROM `keyword` INNER JOIN `article` ON `keyword`.`id` = `article`.`keyword_id` WHERE `status`=1 ORDER BY `id` DESC LIMIT 10' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `id`, `k...')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#4 E:\wamp\www\vote\frontend\controllers\ContentController.php(65): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1052
+    [2] => Column 'id' in field list is ambiguous
+)
+
+2015-08-09 18:08:27 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+    '_csrf' => '59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Oz2lOMw071K-lIOD7Q158Uo7Iqkci19\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/debug/default/view.html?panel=db&tag=55c777d67946d'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347; _csrf=59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Oz2lOMw071K-lIOD7Q158Uo7Iqkci19%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '60963'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439136507.696
+    'REQUEST_TIME' => 1439136507
+]
+2015-08-09 18:08:38 [::1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#4 E:\wamp\www\vote\frontend\controllers\ContentController.php(65): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous
+The SQL being executed was: SELECT `id`, `keyword` FROM `keyword` INNER JOIN `article` ON `keyword`.`id` = `article`.`keyword_id` WHERE `status`=1 ORDER BY `keyword`.`id` DESC LIMIT 10' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `id`, `k...')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#4 E:\wamp\www\vote\frontend\controllers\ContentController.php(65): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1052
+    [2] => Column 'id' in field list is ambiguous
+)
+
+2015-08-09 18:08:38 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+    '_csrf' => '59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Oz2lOMw071K-lIOD7Q158Uo7Iqkci19\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/debug/default/view.html?panel=db&tag=55c777d67946d'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347; _csrf=59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Oz2lOMw071K-lIOD7Q158Uo7Iqkci19%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '60974'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439136518.378
+    'REQUEST_TIME' => 1439136518
+]
+2015-08-09 18:08:55 [::1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'status' in where clause is ambiguous' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#4 E:\wamp\www\vote\frontend\controllers\ContentController.php(65): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'status' in where clause is ambiguous
+The SQL being executed was: SELECT `keyword`.`id`, `keyword` FROM `keyword` INNER JOIN `article` ON `keyword`.`id` = `article`.`keyword_id` WHERE `status`=1 ORDER BY `keyword`.`id` DESC LIMIT 10' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `keyword...')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#4 E:\wamp\www\vote\frontend\controllers\ContentController.php(65): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1052
+    [2] => Column 'status' in where clause is ambiguous
+)
+
+2015-08-09 18:08:55 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+    '_csrf' => '59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Oz2lOMw071K-lIOD7Q158Uo7Iqkci19\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/debug/default/view.html?panel=db&tag=55c777d67946d'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347; _csrf=59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Oz2lOMw071K-lIOD7Q158Uo7Iqkci19%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '60976'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439136535.427
+    'REQUEST_TIME' => 1439136535
+]
+2015-08-09 18:08:55 [::1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'status' in where clause is ambiguous' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#4 E:\wamp\www\vote\frontend\controllers\ContentController.php(65): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'status' in where clause is ambiguous
+The SQL being executed was: SELECT `keyword`.`id`, `keyword` FROM `keyword` INNER JOIN `article` ON `keyword`.`id` = `article`.`keyword_id` WHERE `status`=1 ORDER BY `keyword`.`id` DESC LIMIT 10' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `keyword...')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Command.php(359): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all('<span class="ke...')
+#4 E:\wamp\www\vote\frontend\controllers\ContentController.php(65): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\ContentController->actionIndex('<span class="nu...')
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="n...')
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1052
+    [2] => Column 'status' in where clause is ambiguous
+)
+
+2015-08-09 18:08:55 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+    '_csrf' => '59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Oz2lOMw071K-lIOD7Q158Uo7Iqkci19\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/debug/default/view.html?panel=db&tag=55c777d67946d'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347; _csrf=59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Oz2lOMw071K-lIOD7Q158Uo7Iqkci19%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '60977'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439136535.556
+    'REQUEST_TIME' => 1439136535
+]
+2015-08-09 18:45:07 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'common\models\cms\Keyword has no relation named "firstArticle".' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php:1131
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(196): yii\db\BaseActiveRecord->getRelation('firstArticle')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(163): yii\db\ActiveQuery->normalizeRelations(Object(common\models\cms\Keyword), Array)
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(225): yii\db\ActiveQuery->findWith(Array, Array)
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(207): yii\db\ActiveQuery->populate(Array)
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all(NULL)
+#5 E:\wamp\www\vote\frontend\controllers\ContentController.php(63): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\ContentController->actionIndex(1)
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-08-09 18:45:07 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+    '_csrf' => '59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Oz2lOMw071K-lIOD7Q158Uo7Iqkci19\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/debug/default/view.html?panel=db&tag=55c78355e70d9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347; _csrf=59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Oz2lOMw071K-lIOD7Q158Uo7Iqkci19%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '61295'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439138707.468
+    'REQUEST_TIME' => 1439138707
+]
+2015-08-09 18:45:11 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'common\models\cms\Keyword has no relation named "firstArticle".' in E:\wamp\www\vote\vendor\yiisoft\yii2\db\BaseActiveRecord.php:1131
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(196): yii\db\BaseActiveRecord->getRelation('firstArticle')
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQueryTrait.php(163): yii\db\ActiveQuery->normalizeRelations(Object(common\models\cms\Keyword), Array)
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(225): yii\db\ActiveQuery->findWith(Array, Array)
+#3 E:\wamp\www\vote\vendor\yiisoft\yii2\db\Query.php(207): yii\db\ActiveQuery->populate(Array)
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\db\ActiveQuery.php(132): yii\db\Query->all(NULL)
+#5 E:\wamp\www\vote\frontend\controllers\ContentController.php(63): yii\db\ActiveQuery->all()
+#6 [internal function]: frontend\controllers\ContentController->actionIndex(1)
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#10 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-08-09 18:45:11 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+    '_csrf' => '59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Oz2lOMw071K-lIOD7Q158Uo7Iqkci19\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/debug/default/view.html?panel=db&tag=55c78355e70d9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347; _csrf=59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Oz2lOMw071K-lIOD7Q158Uo7Iqkci19%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '61297'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439138711.047
+    'REQUEST_TIME' => 1439138711
+]
+2015-08-09 18:53:47 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: url' in E:\wamp\www\vote\frontend\themes\default\content\index.php:17
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 E:\wamp\www\vote\frontend\controllers\ContentController.php(67): yii\base\Controller->render()
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\ContentController->actionIndex()
+#5 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-08-09 18:53:46 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+    '_csrf' => '59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Oz2lOMw071K-lIOD7Q158Uo7Iqkci19\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/debug/default/view.html?panel=db&tag=55c7839f0af3a'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347; _csrf=59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Oz2lOMw071K-lIOD7Q158Uo7Iqkci19%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '61432'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439139226.936
+    'REQUEST_TIME' => 1439139226
+]
+2015-08-09 18:54:49 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: category' in E:\wamp\www\vote\frontend\themes\default\content\index.php:21
+Stack trace:
+#0 E:\wamp\www\vote\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 E:\wamp\www\vote\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 E:\wamp\www\vote\frontend\controllers\ContentController.php(67): yii\base\Controller->render()
+#4 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\ContentController->actionIndex()
+#5 E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{E:\wamp\www\vote\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 E:\wamp\www\vote\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 E:\wamp\www\vote\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 E:\wamp\www\vote\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-08-09 18:54:49 [::1][-][-][info][application] $_COOKIE = [
+    'CNZZDATA5327901' => 'cnzz_eid=1454369692-1437149347-&ntime=1437149347'
+    '_csrf' => '59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Oz2lOMw071K-lIOD7Q158Uo7Iqkci19\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/vote/frontend/web/debug/default/view.html?panel=db&tag=55c7839f0af3a'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'CNZZDATA5327901=cnzz_eid%3D1454369692-1437149347-%26ntime%3D1437149347; _csrf=59c13e538d7698538f9afdb9adfb067ec7c68395120e6db84eb63b0d96817dd2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Oz2lOMw071K-lIOD7Q158Uo7Iqkci19%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;D:\\green_soft\\composer;E:\\wamp\\bin\\php\\php5.5.12;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'E:/wamp/www/vote/frontend/web/index.php'
+    'REMOTE_PORT' => '61460'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vote/frontend/web/'
+    'SCRIPT_NAME' => '/vote/frontend/web/index.php'
+    'PHP_SELF' => '/vote/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439139289.361
+    'REQUEST_TIME' => 1439139289
+]
