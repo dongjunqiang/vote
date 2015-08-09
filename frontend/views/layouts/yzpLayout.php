@@ -93,7 +93,7 @@ $baseUrl = \Yii::$app->request->baseUrl;
     <div class="about">
         <div class="right">
             <ul id="menu-bottom-nav" class="menu">
-                <li class="menu-item menu-item-type-post_type menu-item-object-page">桔子新闻：www.baidu.com</li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page">桔子新闻：<?=Yii::$app->params['webUrl']?></li>
             </ul>
             <p class="banquan">
                 桔子新闻，收集互联网上的新闻热点，新闻资讯！

@@ -1,7 +1,13 @@
+<?php
 
-    <section class="list"> <span class="titleimg"><a href="http://www.yzipi.com/2371.htm">
-                <img width="270" height="165" src="http://www.yzipi.com/wp-content/uploads/2015/07/rfedfre-270x165.png" class="attachment-thumbnail wp-post-image" alt="rfedfre" />            </a> </span>
-        <a href="http://www.yzipi.com/2371.htm#comments" class="up"  title="Comment on 【深度反思】为什么富人会越富，穷人会越穷">3</a>      <div class="mecc">
+?>
+    <section class="list">
+        <span class="titleimg">
+            <a href="http://www.yzipi.com/2371.htm">
+                <img width="270" height="165" src="http://www.yzipi.com/wp-content/uploads/2015/07/rfedfre-270x165.png" class="attachment-thumbnail wp-post-image" alt="rfedfre" />
+            </a>
+        </span>
+        <div class="mecc">
             <h2 class="mecctitle"> <a href="http://www.yzipi.com/2371.htm">
                     【深度反思】为什么富人会越富，穷人会越穷
                 </a> </h2>

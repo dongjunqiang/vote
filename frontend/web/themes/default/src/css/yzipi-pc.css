@@ -332,6 +332,7 @@
 /*择属于父元素的第一个子元素的每个 <p> 元素,父字*/
 #container .list:first-child .mecc {
 	padding-right: 25px;
+	margin-left: 100px;
 }
 #container .list:first-child .mecctitle {
 	height: 35px;

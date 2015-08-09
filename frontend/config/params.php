@@ -1,6 +1,6 @@
 <?php
 return [
-    'webUrl' => 'http://www.baidu.com',
+    'webUrl' => 'http://localhost/vote/frontend/web',
     'title' => '桔子新闻网',
     'keyword' => '桔子新闻',
     'description' => '桔子新闻网',

@@ -9,7 +9,7 @@ $this->registerMetaTag([
 <nav id="mbx">当前位置：<a href="<?=Yii::$app->params['webUrl']?>">
         首页
     </a> &gt;
-    <a href="<?=\yii\helpers\Url::to(['content/list', 'id' => $data['keyword_id']])?>"><?=$category['keyword']?></a> &gt;  正文</nav>
+    <a href="<?=\frontend\components\CommonHelper::getCategoryUrl($data['keyword_id'])?>"><?=$category['keyword']?></a> &gt;  正文</nav>
 <!--mbx-->
 <article class="content">
     <header class="contenttitle">

@@ -11,6 +11,7 @@ return [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
+    'defaultRoute' => 'content',
     'components' => [
         'view' => [
             'theme' => [
@@ -32,7 +33,7 @@ return [
             ],
         ],
         'errorHandler' => [
-            'errorAction' => 'site/error',
+            'errorAction' => 'content/error',
         ],
         'urlManager' => [
             'enablePrettyUrl' => true,
@@ -40,6 +41,9 @@ return [
             'enableStrictParsing' => false,
             'suffix' => '.html',
             'rules' => [
+                '<page:\d+>' => 'content/index',
+                '<pinyin:[\w-]+>/list_<id:\d+>_?<page:\d+>?' => 'content/list',
+                '<pinyin:[\w-]+>/show_<id:\d+>' => 'content/show',
                 'content/<action:\w+>/<id:\d+>/<page:\d+>' => 'content/<action>',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
             ],

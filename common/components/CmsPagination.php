@@ -6,6 +6,7 @@
  */
 namespace common\components;
 
+use frontend\components\CommonHelper;
 use Yii;
 use yii\data\Pagination;
 
@@ -47,12 +48,23 @@ class CmsPagination extends Pagination
         }
         $params[0] = $this->route === null ? Yii::$app->controller->getRoute() : $this->route;
         $urlManager = $this->urlManager === null ? Yii::$app->getUrlManager() : $this->urlManager;
-        $baseUrl = $urlManager->getBaseUrl();
+
         if ($absolute) {
             return $urlManager->createAbsoluteUrl($params);
         } else {
-            return $baseUrl.'/'.$params[0].'/'.$paramsUrl.'/'.$params['page'];
-            //return $urlManager->createUrl($params);
+            return $this->getUrl($params);
+        }
+    }
+
+    private function getUrl($params)
+    {
+        if ($params[0] == 'content/list') {
+            return CommonHelper::getCategoryUrl($params['id'], $params['page']);
+        } elseif ($params[0] == 'content/show') {
+            return CommonHelper::getArticleUrl($params['keywordId'], $params['id'], $params['page']);
+        } else {
+            $urlManager = $this->urlManager === null ? Yii::$app->getUrlManager() : $this->urlManager;
+            return $urlManager->createUrl($params);
         }
     }
 }

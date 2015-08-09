@@ -25,6 +25,6 @@ class XzpAsset extends AssetBundle
         'themes/default/js/main.min.js'
     ];
     public $depends = [
-
+        'yii\web\JqueryAsset',
     ];
 }
