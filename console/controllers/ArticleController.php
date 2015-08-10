@@ -20,7 +20,7 @@ class ArticleController extends \yii\console\Controller
 
     public function actionIndex()
     {
-        //self::collect();
+        self::collect();
     }
 
     public function actionCollectByKeywordId($keywordId)
@@ -34,7 +34,7 @@ class ArticleController extends \yii\console\Controller
         if (!$where) {
             $where = ['status' => 0];
         }
-        foreach (UrlHistoryModel::find()->select('id, keyword_id, copyfrom, url')->where($where)->asArray()->limit(10)->each(10) as $urls) {
+        foreach (UrlHistoryModel::find()->select('id, keyword_id, copyfrom, url')->where($where)->orderBy('id DESC')->asArray()->limit(100)->each(10) as $urls) {
             $data = file_get_contents(self::API_URL.$urls['url']);
             if ($data) {
                 $data = json_decode($data, true);

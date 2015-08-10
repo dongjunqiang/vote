@@ -122,4 +122,14 @@ class ContentController extends BaseController
         $data = ArticleApi::getRandom();
         return $this->render('random', compact('data'));
     }
+
+    /**
+     * 搜索
+     */
+    public function actionSearch()
+    {
+        $key = Yii::$app->request->get('keyword', '');
+
+        $this->redirect('http://top.baidu.com/detail?b=1&ie=utf-8&w='.$key);
+    }
 }
