@@ -4,12 +4,13 @@ use \yii\helpers\StringHelper;
 use frontend\components\CommonHelper;
 ?>
 <?php foreach ($lists as $list):?>
+    <?php $catUrl = CommonHelper::getCategoryUrl($list['id'])?>
     <section class="list">
-        <h2><?=$list['keyword']?></h2>
+        <h2><a href="<?=$catUrl?>" target="_blank"><?=$list['keyword']?></a></h2>
         <div class="clear"></div>
         <span class="titleimg">
-            <a href="http://www.yzipi.com/2359.htm">
-                <img width="270" height="165" src="http://www.yzipi.com/wp-content/uploads/2015/03/SS-270x165.png" class="attachment-thumbnail wp-post-image" alt="SS" />
+            <a href="<?=$catUrl?>" target="_blank">
+                <img width="270" height="165" src="<?php echo $list['firstArticle']['thumb'] ?: Yii::$app->params['webUrl'].'/themes/default/images/default.jpg'?>" alt="<?=$list['keyword']?>" />
             </a>
         </span>
         <div class="mecc">
@@ -17,8 +18,7 @@ use frontend\components\CommonHelper;
             <address class="meccaddress">
                 <time><?=date('m.d', strtotime($list['firstArticle']['add_time']))?></time>
                 -
-                <span><?=$list['firstArticle']['copyfrom']?></span>        -
-                <?=$list['keyword']?>
+                <span><?=$list['firstArticle']['copyfrom']?></span> - <?=$list['keyword']?>
             </address>
             <p><?=StringHelper::truncate($list['firstArticle']['description'], 130)?></p>
         </div>
@@ -27,11 +27,12 @@ use frontend\components\CommonHelper;
     <div class="clear"></div>
 <?php endforeach;?>
     <!--list-->
-    <div class="pagenavi">
-        <span class="page-numbers">1 / 23 </span> <span class='page-numbers current'>1</span> <a class='page-numbers' href='http://www.yzipi.com/page/2' title='第 2 页'>2</a> <a class='page-numbers' href='http://www.yzipi.com/page/3' title='第 3 页'>3</a> <span class="page-numbers">...</span><a class='page-numbers' href='http://www.yzipi.com/page/23' title='最末页'>23</a> <a class='page-numbers' href='http://www.yzipi.com/page/2' title='下一页'>下一页</a>     </div>
-    <!--Page End-->
-    <nav class="navigation">
-        <div class="nav-previous"><a href="http://www.yzipi.com/page/2" >下一页</a></div>
-
-    </nav><!-- .navigation -->
-    <!--phonepage-->
+<?php echo \yii\widgets\LinkPager::widget([
+    'pagination' => $pages,
+    'options' => [
+        'class' => 'pagenavi'
+    ],
+    'linkOptions' => [
+        'class' => 'page-numbers',
+    ]
+])?>

@@ -5586,3 +5586,2757 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1439139289.361
     'REQUEST_TIME' => 1439139289
 ]
+2015-08-10 11:15:16 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 11:15:16 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51258'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439176516.386
+    'REQUEST_TIME' => 1439176516
+]
+2015-08-10 11:15:59 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 11:15:59 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51284'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439176559.429
+    'REQUEST_TIME' => 1439176559
+]
+2015-08-10 11:16:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 11:16:07 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51298'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439176567.501
+    'REQUEST_TIME' => 1439176567
+]
+2015-08-10 11:16:32 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 11:16:32 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51304'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439176592.943
+    'REQUEST_TIME' => 1439176592
+]
+2015-08-10 11:16:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 11:16:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51315'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439176616.306
+    'REQUEST_TIME' => 1439176616
+]
+2015-08-10 11:17:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 11:17:10 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51323'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439176630.801
+    'REQUEST_TIME' => 1439176630
+]
+2015-08-10 11:17:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 11:17:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51339'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439176665.728
+    'REQUEST_TIME' => 1439176665
+]
+2015-08-10 11:18:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 11:18:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51348'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439176684.211
+    'REQUEST_TIME' => 1439176684
+]
+2015-08-10 11:19:20 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 11:19:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51358'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439176760.117
+    'REQUEST_TIME' => 1439176760
+]
+2015-08-10 11:25:28 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 11:25:28 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/zhou-jie-lun-nv-er-hua-xiang/list_161.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51498'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439177128.344
+    'REQUEST_TIME' => 1439177128
+]
+2015-08-10 11:25:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 11:25:34 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/zhou-jie-lun-nv-er-hua-xiang/show_1.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51509'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439177134.546
+    'REQUEST_TIME' => 1439177134
+]
+2015-08-10 11:25:37 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 11:25:37 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/zhou-jie-lun-nv-er-hua-xiang/list_161.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51517'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439177137.752
+    'REQUEST_TIME' => 1439177137
+]
+2015-08-10 11:26:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 11:26:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51549'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439177160.862
+    'REQUEST_TIME' => 1439177160
+]
+2015-08-10 13:34:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 13:34:40 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '59024'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439184879.956
+    'REQUEST_TIME' => 1439184879
+]
+2015-08-10 13:36:18 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 13:36:18 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '60250'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439184978.276
+    'REQUEST_TIME' => 1439184978
+]
+2015-08-10 13:36:24 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 13:36:24 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/1.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '60250'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439184984.319
+    'REQUEST_TIME' => 1439184984
+]
+2015-08-10 13:50:46 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 13:50:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '62245'
+    'REDIRECT_URL' => '/yii2/frontend/web/content/random'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/content/random'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439185846.774
+    'REQUEST_TIME' => 1439185846
+]
+2015-08-10 13:51:30 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 13:51:30 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '62351'
+    'REDIRECT_URL' => '/yii2/frontend/web/content/random'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/content/random'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439185890.655
+    'REQUEST_TIME' => 1439185890
+]
+2015-08-10 13:51:46 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 13:51:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '62393'
+    'REDIRECT_URL' => '/yii2/frontend/web/content/random'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/content/random'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439185906.818
+    'REQUEST_TIME' => 1439185906
+]
+2015-08-10 13:51:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 13:51:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '62394'
+    'REDIRECT_URL' => '/yii2/frontend/web/content/random'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/content/random'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439185909.518
+    'REQUEST_TIME' => 1439185909
+]
+2015-08-10 13:51:50 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 13:51:50 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '62396'
+    'REDIRECT_URL' => '/yii2/frontend/web/content/random'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/content/random'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439185910.093
+    'REQUEST_TIME' => 1439185910
+]
+2015-08-10 13:51:50 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 13:51:50 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '62394'
+    'REDIRECT_URL' => '/yii2/frontend/web/content/random'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/content/random'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439185910.33
+    'REQUEST_TIME' => 1439185910
+]
+2015-08-10 13:52:49 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'strtoupper() expects parameter 1 to be string, array given' in D:\wamp\www\yii2\vendor\yiisoft\yii2\db\QueryBuilder.php:913
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'strtoupper() ex...', 'D:\\wamp\\www\\yii...', 913, Array)
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\db\QueryBuilder.php(913): strtoupper(Array)
+#2 D:\wamp\www\yii2\vendor\yiisoft\yii2\db\QueryBuilder.php(739): yii\db\QueryBuilder->buildCondition(Array, Array)
+#3 D:\wamp\www\yii2\vendor\yiisoft\yii2\db\QueryBuilder.php(96): yii\db\QueryBuilder->buildWhere(Array, Array)
+#4 D:\wamp\www\yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(309): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#5 D:\wamp\www\yii2\vendor\yiisoft\yii2\db\Query.php(206): yii\db\ActiveQuery->createCommand(NULL)
+#6 D:\wamp\www\yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#7 D:\wamp\www\yii2\common\api\cms\ArticleApi.php(72): yii\db\ActiveQuery->all()
+#8 D:\wamp\www\yii2\frontend\controllers\ContentController.php(122): common\api\cms\ArticleApi::getRandom()
+#9 [internal function]: frontend\controllers\ContentController->actionRandom()
+#10 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('random', Array)
+#13 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('content/random', Array)
+#14 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+2015-08-10 13:52:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '62561'
+    'REDIRECT_URL' => '/yii2/frontend/web/content/random.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/content/random.html'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439185969.934
+    'REQUEST_TIME' => 1439185969
+]
+2015-08-10 13:52:57 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'strtoupper() expects parameter 1 to be string, array given' in D:\wamp\www\yii2\vendor\yiisoft\yii2\db\QueryBuilder.php:913
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'strtoupper() ex...', 'D:\\wamp\\www\\yii...', 913, Array)
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\db\QueryBuilder.php(913): strtoupper(Array)
+#2 D:\wamp\www\yii2\vendor\yiisoft\yii2\db\QueryBuilder.php(739): yii\db\QueryBuilder->buildCondition(Array, Array)
+#3 D:\wamp\www\yii2\vendor\yiisoft\yii2\db\QueryBuilder.php(96): yii\db\QueryBuilder->buildWhere(Array, Array)
+#4 D:\wamp\www\yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(309): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#5 D:\wamp\www\yii2\vendor\yiisoft\yii2\db\Query.php(206): yii\db\ActiveQuery->createCommand(NULL)
+#6 D:\wamp\www\yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#7 D:\wamp\www\yii2\common\api\cms\ArticleApi.php(72): yii\db\ActiveQuery->all()
+#8 D:\wamp\www\yii2\frontend\controllers\ContentController.php(122): common\api\cms\ArticleApi::getRandom()
+#9 [internal function]: frontend\controllers\ContentController->actionRandom()
+#10 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('random', Array)
+#13 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('content/random', Array)
+#14 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+2015-08-10 13:52:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '62562'
+    'REDIRECT_URL' => '/yii2/frontend/web/content/random.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/content/random.html'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439185977.275
+    'REQUEST_TIME' => 1439185977
+]
+2015-08-10 15:04:39 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: datas' in D:\wamp\www\yii2\frontend\themes\default\content\random.php:3
+Stack trace:
+#0 D:\wamp\www\yii2\frontend\themes\default\content\random.php(3): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\wamp\\www\\yii...', 3, Array)
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\View.php(325): require('D:\\wamp\\www\\yii...')
+#2 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\wamp\\www\\yii...', Array)
+#3 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\wamp\\www\\yii...', Array, Object(frontend\controllers\ContentController))
+#4 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('random', Array, Object(frontend\controllers\ContentController))
+#5 D:\wamp\www\yii2\frontend\controllers\ContentController.php(123): yii\base\Controller->render('random', Array)
+#6 [internal function]: frontend\controllers\ContentController->actionRandom()
+#7 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('random', Array)
+#10 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('content/random', Array)
+#11 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-08-10 15:04:39 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/debug/default/view.html?panel=db&tag=55c84ba55ace0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '55746'
+    'REDIRECT_URL' => '/yii2/frontend/web/content/random.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/content/random.html'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439190279.675
+    'REQUEST_TIME' => 1439190279
+]
+2015-08-10 15:05:15 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '[', expecting ',' or ';'' in D:\wamp\www\yii2\frontend\themes\default\content\random.php:7
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-10 15:05:15 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/debug/default/view.html?panel=db&tag=55c84ba55ace0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '55841'
+    'REDIRECT_URL' => '/yii2/frontend/web/content/random.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/content/random.html'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439190315.742
+    'REQUEST_TIME' => 1439190315
+]
+2015-08-10 15:17:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 15:17:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_7.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '57366'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803062127658.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803062127658.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439191024.038
+    'REQUEST_TIME' => 1439191024
+]
+2015-08-10 15:17:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 15:17:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_7.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '57368'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061010582.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061010582.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439191024.043
+    'REQUEST_TIME' => 1439191024
+]
+2015-08-10 15:17:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 15:17:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_7.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '57369'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061005479.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061005479.png'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439191024.04
+    'REQUEST_TIME' => 1439191024
+]
+2015-08-10 15:17:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 15:17:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_7.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '57364'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061008539.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061008539.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439191024.042
+    'REQUEST_TIME' => 1439191024
+]
+2015-08-10 15:17:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 15:17:07 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_7.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '57369'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803062127658.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803062127658.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439191027.636
+    'REQUEST_TIME' => 1439191027
+]
+2015-08-10 15:17:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 15:17:07 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_7.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '57368'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061010582.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061010582.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439191027.638
+    'REQUEST_TIME' => 1439191027
+]
+2015-08-10 15:17:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 15:17:07 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_7.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '57364'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061005479.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061005479.png'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439191027.638
+    'REQUEST_TIME' => 1439191027
+]
+2015-08-10 15:17:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 15:17:07 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_7.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '57366'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061008539.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061008539.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439191027.638
+    'REQUEST_TIME' => 1439191027
+]
+2015-08-10 16:13:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 16:13:34 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_9.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '59290'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803062130994.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803062130994.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439194414.784
+    'REQUEST_TIME' => 1439194414
+]
+2015-08-10 16:13:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 16:13:34 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_9.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '59293'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061015387.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061015387.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439194414.789
+    'REQUEST_TIME' => 1439194414
+]
+2015-08-10 16:13:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 16:13:34 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_9.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '59292'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061010582.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061010582.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439194414.789
+    'REQUEST_TIME' => 1439194414
+]
+2015-08-10 16:13:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 16:13:34 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_9.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '59314'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803062127658.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803062127658.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439194414.789
+    'REQUEST_TIME' => 1439194414
+]
+2015-08-10 16:15:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 16:15:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_9.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '59732'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061010582.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061010582.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439194527.464
+    'REQUEST_TIME' => 1439194527
+]
+2015-08-10 16:15:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 16:15:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_9.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '59733'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803062130994.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803062130994.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439194527.463
+    'REQUEST_TIME' => 1439194527
+]
+2015-08-10 16:15:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 16:15:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_9.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '59730'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061015387.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061015387.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439194527.47
+    'REQUEST_TIME' => 1439194527
+]
+2015-08-10 16:15:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 16:15:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/wu-mo-chou-pang-yong-yao-suo-zhi/show_9.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '59728'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803062127658.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803062127658.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439194527.471
+    'REQUEST_TIME' => 1439194527
+]
+2015-08-10 16:19:37 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '?>'' in D:\wamp\www\yii2\frontend\themes\default\content\random.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-10 16:19:37 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/debug/default/view.html?panel=db&tag=55c84ba55ace0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '60289'
+    'REDIRECT_URL' => '/yii2/frontend/web/content/random.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/content/random.html'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439194777.112
+    'REQUEST_TIME' => 1439194777
+]
+2015-08-10 16:22:52 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 16:22:52 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '60722'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439194972.329
+    'REQUEST_TIME' => 1439194972
+]
+2015-08-10 17:12:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 17:12:29 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '50936'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439197949.718
+    'REQUEST_TIME' => 1439197949
+]
+2015-08-10 17:12:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 17:12:43 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/zhou-jie-lun-nv-er-hua-xiang/list_161.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '50997'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439197963.446
+    'REQUEST_TIME' => 1439197963
+]
+2015-08-10 17:12:51 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 17:12:50 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/zhou-jie-lun-nv-er-hua-xiang/list_161.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51021'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439197970.956
+    'REQUEST_TIME' => 1439197970
+]
+2015-08-10 17:14:05 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 17:14:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51184'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439198045.223
+    'REQUEST_TIME' => 1439198045
+]
+2015-08-10 17:14:06 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 17:14:06 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51179'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439198046.243
+    'REQUEST_TIME' => 1439198046
+]
+2015-08-10 17:14:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 D:\wamp\www\yii2\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\wamp\www\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2015-08-10 17:14:29 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'JSESSIONID-WNC-98XSE' => '3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4'
+    'CNZZDATA1451435' => 'cnzz_eid=1153830040-1437983073-&ntime=1437982874'
+    'CNZZDATA1253468941' => '1698775106-1437982416-|1437988644'
+    '_csrf' => '782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID-WNC-98XSE=3a9c4940d8d1e2f47b69db138d7ccb3fcb22850424782a0d2d3333523fa62215077a3f69505d20323a2c038c9ac49b8eb391e862fb74ddbe487cd347ff764ccb3939dc95938985bc5d2326cd53b65191dd81741f6ab629c2b7a8fb2e73f6e6113ae7fabf967823234ada59016dc6c416691282234a67b91ff47eab47fa60c1b4; CNZZDATA1451435=cnzz_eid%3D1153830040-1437983073-%26ntime%3D1437982874; CNZZDATA1253468941=1698775106-1437982416-%7C1437988644; _csrf=782787b3e21aad570f63c7ab1ffd7eb40d1e1b30844d1b365ecf58caf78477a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_-XIibxEHow7Dm4NlGnn1SlIkDx39kfF%22%3B%7D'
+    'PATH' => 'D:\\Python34\\;D:\\Python34\\Scripts;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;E:\\bin;D:\\Program Files\\nodejs\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '51240'
+    'REDIRECT_URL' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/frontend/web/uploads/201508/03/20150803061004370.jpg'
+    'SCRIPT_NAME' => '/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1439198069.558
+    'REQUEST_TIME' => 1439198069
+]

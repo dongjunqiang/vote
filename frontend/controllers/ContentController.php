@@ -111,14 +111,15 @@ class ContentController extends BaseController
     {
         $data = ArticleModel::find()->where(['id' => $id, 'status' => 1])->with('content')->asArray()->one();
         $category = KeywordApi::getCategoryInfo($data['keyword_id']);
-
-        //获取相关词
-        //$relates = RelatedWords::getWords($category['keyword']);
-//        var_dump($relates);
-
-        //$articles = ArticleApi::getRelatedArticles($data['keyword_id']);
-        //var_dump($articles);
-
         return $this->render('show', compact('data', 'category'));
+    }
+
+    /**
+     * 随机文章
+     */
+    public function actionRandom()
+    {
+        $data = ArticleApi::getRandom();
+        return $this->render('random', compact('data'));
     }
 }

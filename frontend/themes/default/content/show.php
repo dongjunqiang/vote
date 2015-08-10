@@ -1,5 +1,5 @@
 <?php
-$this->title = $data['title'];
+$this->title = $data['title'] . '_' . Yii::$app->params['title'];
 $relateWords = \common\helpers\RelatedWords::getWordsByCache($category['keyword']);
 $this->registerMetaTag([
     'name' => 'keywords',

@@ -58,4 +58,18 @@ class ArticleApi
         $from = $order == 'views' ? 'hits force INDEX(i_views)' : 'hits force INDEX(i_month)';
         return HitsModel::find()->select('aid')->from($from)->where('aid != 0')->orderBy([$order => SORT_DESC])->with('articleInfo')->asArray()->limit($num)->all();
     }
+
+    /**
+     * 获取随机文章
+     * @param int $num
+     */
+    public static function getRandom($num = 10)
+    {
+        $sql = 'SELECT t1.id,title,keyword_id,thumb,copyfrom,description,t1.add_time,k.keyword
+          FROM article t1
+          JOIN (SELECT round(RAND() * (SELECT MAX(id) FROM article)) AS nid FROM article where status = 1 LIMIT :num) t2
+            ON t1.id = t2.nid
+          LEFT JOIN keyword as k ON t1.keyword_id = k.id';
+        return ArticleModel::findBySql($sql, [':num' => $num])->asArray()->all();
+    }
 }

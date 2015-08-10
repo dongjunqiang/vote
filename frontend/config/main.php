@@ -45,7 +45,7 @@ return [
                 '<pinyin:[\w-]+>/list_<id:\d+>_?<page:\d+>?' => 'content/list',
                 '<pinyin:[\w-]+>/show_<id:\d+>' => 'content/show',
                 'content/<action:\w+>/<id:\d+>/<page:\d+>' => 'content/<action>',
-                '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+                '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
             ],
         ],
         'assetManager' => [

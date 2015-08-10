@@ -10,16 +10,14 @@ use frontend\components\CommonHelper;
         <?php $url = CommonHelper::getArticleUrl($id, $list['id']);?>
     <section class="archive-list">
         <div class="titleimg">
-            <a href="<?=$url?>">
-                <img width="270" height="165" src="<?php echo $list['thumb'] ? $list['thumb'] : $baseUrl.'/images/default.png'; ?>" class="attachment-thumbnail wp-post-image" alt="<?=\yii\helpers\Html::encode($list['title'])?>" />
+            <a href="<?=$url?>" target="_blank">
+                <img width="270" height="165" src="<?php echo $list['thumb'] ? $list['thumb'] : $baseUrl.'/images/default.jpg'; ?>" class="attachment-thumbnail wp-post-image" alt="<?=\yii\helpers\Html::encode($list['title'])?>" />
             </a>
         </div>
         <div class="mecc">
             <h2 class="mecctitle"> <a href="<?=$url?>"><?=$list['title']?></a> </h2>
             <address class="meccaddress">
                 <time><?=date('m.d', strtotime($list['add_time']))?></time>
-                -
-                <span><?=$list['copyfrom']?></span>        -
                 <?=$category['keyword']?>
             </address>
             <p><?=StringHelper::truncate($list['description'], 130)?></p>

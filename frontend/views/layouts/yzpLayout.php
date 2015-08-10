@@ -34,7 +34,7 @@ $baseUrl = \Yii::$app->request->baseUrl;
         <nav class="header-nav">
             <ul id="menu-nav" class="menu">
                 <li><a href="<?=Yii::$app->params['webUrl']?>">首页</a></li>
-                <li><a title="热门随机文章" href="http://www.yzipi.com/hotrandom">热文</a></li>
+                <li><a title="热门随机文章" href="<?=\yii\helpers\Url::to(['content/random'])?>">热文</a></li>
             </ul>
         </nav>
         <!--header-nav-->

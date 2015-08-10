@@ -214,7 +214,7 @@
 #container .list {
 	width: 825px;
 	border-bottom: 2px dashed #f2f1f1;
-	padding: 30px 0px;
+	padding: 0 0 30px;
 	position: relative;
 }
 .archive-list {
@@ -317,85 +317,16 @@
 	color: #fff
 }
 /*列的第一个效果*/
-#container .list:first-child {
-	width: auto;
-	background: #f7f7f7;
-	border-bottom: none;
-	padding: 0px;
-	margin-left: -30px;
-	margin-bottom: 15px;
-	display: block;
-}
-#container .list:first-child span {
-	display: none
-}
-/*择属于父元素的第一个子元素的每个 <p> 元素,父字*/
-#container .list:first-child .mecc {
-	padding-right: 25px;
-	margin-left: 100px;
-}
-#container .list:first-child .mecctitle {
-	height: 35px;
-	line-height: 33px;
-	margin-top: 11px;
-}
-#container .list:first-child .mecctitle a {
-	font-size: 25px;
-	font-weight: 900;
-	color: #d6623d;
-}
-#container .list:first-child .meccaddress {
-	color: #a2a2a2;
-	margin-top: 5px;
-	font-style: normal;
-}
-#container .list:first-child .mecc p {
-	width: 820px;
-	margin-left: -100px;
-	padding: 15px 0px;
-	padding-bottom: 0px;
-	padding-left: 30px;
-	padding-right:5px;
-	background: #fff;
-	margin-top: 10px;
-	text-indent: 35px;
-	line-height: 30px;
-}
-#container .list:first-child .up {
-	position: static;
-	float: left;
-	display: block;
-	height: 80px;
-	border-radius: 0px;
-	line-height: 80px;
-	width: 100px;
-	color: #ec9573;
-	font-size: 80px;
-	text-align: center;
-	background: #f8f8f8;
-	transition: All 1s ease-in-out;
-	-webkit-transition: All 1s ease-in-out;
-	-moz-transition: All 1s ease-in-out;
-	-o-transition: All 1s ease-in-out;
-}
-#container .list:first-child .up:before {
-	display: none;
-}
-#container .list:first-child .up:hover {
-	background: none;
-	color: #ec9573;
-	transform: rotatey(360deg);
-	-webkit-transform: rotatey(360deg);
-	-webkit-transition: rotatey(360deg);
-	-moz-transition: rotatey(360deg);
-	-o-transition: rotatey(360deg);
-}
 #container .list h2 {
 	width: auto;
 	height: 50px;
 	line-height: 50px;
-	color: #d6623d;
+	margin-bottom: 10px;
 	background: #f7f7f7;
+}
+#container .list h2 a{
+	font-size: 18px;
+	color: #d6623d;
 }
 /*main-container-pagenavi*/
 .pagenavi {
