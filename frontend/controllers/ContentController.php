@@ -3,13 +3,11 @@ namespace frontend\controllers;
 
 use common\api\cms\ArticleApi;
 use common\components\CmsPagination;
-use common\helpers\RelatedWords;
 use common\models\cms\Keyword;
 use Yii;
 use frontend\components\BaseController;
 use common\api\cms\KeywordApi;
 use common\models\cms\ArticleModel;
-use yii\data\Pagination;
 use yii\web\NotFoundHttpException;
 
 class ContentController extends BaseController
