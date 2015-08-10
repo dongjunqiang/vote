@@ -24,10 +24,10 @@
 	float: left;
 	margin-left: 30px;
 }
-.logo h1 {
+.logo h1, .logo div {
 	float: left;
 }
-.logo h1 img {
+.logo h1 img, .logo div img {
 	width: 185px;
 	height: auto;
 }

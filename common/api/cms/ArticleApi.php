@@ -56,7 +56,7 @@ class ArticleApi
     public static function getHotArticle($num = 10, $order = 'views')
     {
         $from = $order == 'views' ? 'hits force INDEX(i_views)' : 'hits force INDEX(i_month)';
-        return HitsModel::find()->select('aid')->from($from)->where('aid != 0')->orderBy([$order => SORT_DESC])->with('articleInfo')->asArray()->limit($num)->all();
+        return HitsModel::find()->select('aid,kid')->from($from)->where('aid != 0')->orderBy([$order => SORT_DESC])->with('articleInfo')->asArray()->limit($num)->all();
     }
 
     /**

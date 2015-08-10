@@ -126,8 +126,10 @@ class ContentController extends BaseController
      */
     public function actionSearch()
     {
-        $key = Yii::$app->request->get('keyword', '');
+        if (Yii::$app->request->isPost) {
+            $key = Yii::$app->request->post('s', 'site:www.qiz35.com');
 
-        $this->redirect('http://top.baidu.com/detail?b=1&ie=utf-8&w='.$key);
+            $this->redirect('http://top.baidu.com/detail?b=1&ie=utf-8&w='.$key);
+        }
     }
 }

@@ -1,10 +1,6 @@
 <?php
 use yii\helpers\Html;
-use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
-use yii\widgets\Breadcrumbs;
 use frontend\assets\XzpAsset;
-use frontend\widgets\Alert;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
@@ -27,7 +23,7 @@ $baseUrl = \Yii::$app->request->baseUrl;
 <header id="header-web">
     <div class="header-main">
         <hgroup class="logo">
-            <h1><a href="<?=$webUrl?>" title="<?=Yii::$app->params['title']?>" rel="home"><img src="<?=$baseUrl?>/themes/default/images/logo.png" alt="<?=Yii::$app->params['title']?>"></a></h1>
+            <div><a href="<?=$webUrl?>" title="<?=Yii::$app->params['title']?>" rel="home"><img src="<?=$baseUrl?>/themes/default/images/logo.png" alt="<?=Yii::$app->params['title']?>"></a></div>
             <h3>最新的新闻事件，新闻热点！</h3>
         </hgroup>
         <!--logo-->
@@ -44,7 +40,7 @@ $baseUrl = \Yii::$app->request->baseUrl;
 <!--header-web-->
 <div id="main">
     <div id="soutab">
-        <form method="get" class="search" action="<?=Yii::$app->params['title']?>" >
+        <?php $form = \yii\widgets\ActiveForm::begin(['action' => \yii\helpers\Url::to(['content/search']), 'method' => 'post', 'options' => ['class' => 'search', 'target' => '_blank']]); ?>
             <input class="text" type="text" name="s" placeholder="搜索一下">
             <input class="button" value="搜索" type="submit">
         </form>
@@ -59,9 +55,9 @@ $baseUrl = \Yii::$app->request->baseUrl;
                 <span class="tagtitle">热门关键词+</span>
                 <div class="tagg">
                     <ul id="menu-keywords" class="menu">
-                    <?php if ($this->beginCache('hot_keywords', ['duration' => 3600])):?>
+                    <?php if ($this->beginCache('hot_keywords', ['duration' => 1800])):?>
                         <?php foreach (\common\api\cms\KeywordApi::getHotKeywords(20) as $r):?>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="<?=\yii\helpers\Url::to(['content/list','id'=>$r['keywordInfo']['id']])?>"><?=$r['keywordInfo']['keyword']?></a></li>
+                        <li><a href="<?=\yii\helpers\Url::to(['content/list','id'=>$r['keywordInfo']['id']])?>"><?=$r['keywordInfo']['keyword']?></a></li>
                     <?php
                         endforeach;
                         $this->endCache();
@@ -77,7 +73,7 @@ $baseUrl = \Yii::$app->request->baseUrl;
             <ul class="sitebar_list_ul">
                 <?php if ($this->beginCache('hot_articles', ['duration' => 3600])):?>
                 <?php foreach (\common\api\cms\ArticleApi::getHotArticle(20) as $r):?>
-                <li><a href="<?=\yii\helpers\Url::to(['content/show','id'=>$r['articleInfo']['id']])?>" title="<?=Html::encode($r['articleInfo']['title'])?>"> <?=$r['articleInfo']['title']?></a></li>
+                <li><a href="<?=\frontend\components\CommonHelper::getArticleUrl($r['kid'], $r['aid'])?>" title="<?=Html::encode($r['articleInfo']['title'])?>"> <?=$r['articleInfo']['title']?></a></li>
                 <?php
                     endforeach;
                     $this->endCache();

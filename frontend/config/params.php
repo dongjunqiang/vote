@@ -1,6 +1,6 @@
 <?php
 return [
-    'webUrl' => 'http://localhost/yii2/frontend/web',
+    'webUrl' => 'http://www.qiz35.com/web',
     'title' => '桔子新闻网',
     'keyword' => '桔子新闻',
     'description' => '桔子新闻网',
