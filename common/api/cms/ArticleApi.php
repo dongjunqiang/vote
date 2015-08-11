@@ -33,7 +33,7 @@ class ArticleApi
      */
     public static function getPrevArticle($articleId)
     {
-        $data = ArticleModel::find()->select('id, title')->where(['<', 'id', $articleId])->andWhere(['status' => 1])->orderBy('id DESC')->asArray()->one();
+        $data = ArticleModel::find()->select('id, title, keyword_id')->where(['<', 'id', $articleId])->andWhere(['status' => 1])->orderBy('id DESC')->asArray()->one();
         return $data ?: '没有了';
     }
 
@@ -43,7 +43,7 @@ class ArticleApi
      */
     public static function getNextArticle($articleId)
     {
-        $data = ArticleModel::find()->select('id, title')->where(['>', 'id', $articleId])->andWhere(['status' => 1])->orderBy('id ASC')->asArray()->one();
+        $data = ArticleModel::find()->select('id, title, keyword_id')->where(['>', 'id', $articleId])->andWhere(['status' => 1])->orderBy('id ASC')->asArray()->one();
         return $data ?: '没有了';
     }
 

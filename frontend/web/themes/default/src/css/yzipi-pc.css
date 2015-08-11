@@ -390,7 +390,8 @@
 	-o-transition: rotatey(360deg);
 }
 .mscc {
-	float: left
+	float: left;
+	margin-left: 30px;
 }
 .mscctitle {
 	height: 35px;

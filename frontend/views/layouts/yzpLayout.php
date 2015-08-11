@@ -1,6 +1,7 @@
 <?php
 use yii\helpers\Html;
 use frontend\assets\XzpAsset;
+use frontend\components\CommonHelper;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
@@ -57,7 +58,7 @@ $baseUrl = \Yii::$app->request->baseUrl;
                     <ul id="menu-keywords" class="menu">
                     <?php if ($this->beginCache('hot_keywords', ['duration' => 1800])):?>
                         <?php foreach (\common\api\cms\KeywordApi::getHotKeywords(20) as $r):?>
-                        <li><a href="<?=\yii\helpers\Url::to(['content/list','id'=>$r['keywordInfo']['id']])?>"><?=$r['keywordInfo']['keyword']?></a></li>
+                        <li><a href="<?=CommonHelper::getCategoryUrl($r['keywordInfo']['id'])?>"><?=$r['keywordInfo']['keyword']?></a></li>
                     <?php
                         endforeach;
                         $this->endCache();
@@ -73,7 +74,7 @@ $baseUrl = \Yii::$app->request->baseUrl;
             <ul class="sitebar_list_ul">
                 <?php if ($this->beginCache('hot_articles', ['duration' => 3600])):?>
                 <?php foreach (\common\api\cms\ArticleApi::getHotArticle(20) as $r):?>
-                <li><a href="<?=\frontend\components\CommonHelper::getArticleUrl($r['kid'], $r['aid'])?>" title="<?=Html::encode($r['articleInfo']['title'])?>"> <?=$r['articleInfo']['title']?></a></li>
+                <li><a href="<?=CommonHelper::getArticleUrl($r['kid'], $r['aid'])?>" title="<?=Html::encode($r['articleInfo']['title'])?>"> <?=\yii\helpers\StringHelper::truncate($r['articleInfo']['title'], 23,'')?></a></li>
                 <?php
                     endforeach;
                     $this->endCache();

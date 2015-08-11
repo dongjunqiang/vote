@@ -9,20 +9,19 @@ $this->registerMetaTag([
 <nav id="mbx">当前位置：<a href="<?=Yii::$app->params['webUrl']?>">
         首页
     </a> &gt;
-    <a href="<?=\frontend\components\CommonHelper::getCategoryUrl($data['keyword_id'])?>"><?=$category['keyword']?></a> &gt;  正文</nav>
+    <a href="<?=\frontend\components\CommonHelper::getCategoryUrl($data['keyword_id'])?>" rel="category"><?=$category['keyword']?></a> &gt;  正文</nav>
 <!--mbx-->
 <article class="content">
     <header class="contenttitle">
-        <a href="http://www.yzipi.com/2359.htm#comments" class="count">3</a>
         <div class="mscc">
             <h1 class="mscctitle">
-                <a href="<?=\yii\helpers\Url::to(['content/show', 'id' => $data['id']])?>"><?=$data['title']?></a>
+                <a href="<?=\frontend\components\CommonHelper::getArticleUrl($data['keyword_id'], $data['id'])?>"><?=$data['title']?></a>
             </h1>
             <address class="msccaddress ">
                 <em>已有 <span id="hits"></span> 人阅读此文 -</em>
                 <time><?=date('Y-m-d',strtotime($data['add_time']))?></time>
                 -
-                <a href="<?=\yii\helpers\Url::to(['content/list', 'id' => $data['keyword_id']])?>" rel="category tag"><?=$category['keyword']?></a>
+                <a href="<?=\frontend\components\CommonHelper::getCategoryUrl($data['keyword_id'])?>" rel="category"><?=$category['keyword']?></a>
             </address>
             <div class="bshare-custom"></div>
         </div>
@@ -48,7 +47,7 @@ $this->registerMetaTag([
     <?php $prevArticle = \common\api\cms\ArticleApi::getPrevArticle($data['id']);?>
     <span class="nav-previous">
     <?php if (is_array($prevArticle)):?>
-        &larr; <a href="<?=\yii\helpers\Url::to(['content/show', 'id' => $prevArticle['id']])?>" rel="next"><?=$prevArticle['title']?></a>
+        &larr; <a href="<?=\frontend\components\CommonHelper::getArticleUrl($prevArticle['keyword_id'], $prevArticle['id'])?>" rel="next"><?=$prevArticle['title']?></a>
     <?php else:?>
         <?=$prevArticle?>
     <?php endif;?>
@@ -56,7 +55,7 @@ $this->registerMetaTag([
     <?php $nextArticle = \common\api\cms\ArticleApi::getNextArticle($data['id']);?>
     <span class="nav-next">
     <?php if (is_array($nextArticle)):?>
-        <a href="<?=\yii\helpers\Url::to(['content/show', 'id' => $nextArticle['id']])?>" rel="prev"><?=$nextArticle['title']?></a> &rarr;
+        <a href="<?=\frontend\components\CommonHelper::getArticleUrl($nextArticle['keyword_id'], $nextArticle['id'])?>" rel="prev"><?=$nextArticle['title']?></a> &rarr;
     <?php else:?>
         <?=$nextArticle?>
     <?php endif;?>
@@ -74,9 +73,10 @@ endif;
     <?php $articles = \common\api\cms\ArticleApi::getRelatedArticles($data['keyword_id'], 4);?>
     <ul class="pic">
     <?php foreach ($articles as $r):?>
+        <?php $url = \frontend\components\CommonHelper::getArticleUrl($r['keyword_id'], $r['id'])?>
     <li>
-        <a href="<?=\yii\helpers\Url::to(['content/show', 'id' => $r['id']])?>"><img width="400" height="244" src="<?=$r['thumb']?>" class="attachment-medium wp-post-image" alt="<?=\yii\helpers\Html::encode($r['title'])?>" /></a>
-        <a rel="bookmark" href="<?=\yii\helpers\Url::to(['content/show', 'id' => $r['id']])?>" title="<?=\yii\helpers\Html::encode($r['title'])?>" class="link"><?=$r['title']?></a>
+        <a href="<?=$url?>"><img width="400" height="244" src="<?=$r['thumb']?>" alt="<?=\yii\helpers\Html::encode($r['title'])?>" /></a>
+        <a rel="bookmark" href="<?=$url?>" title="<?=\yii\helpers\Html::encode($r['title'])?>" class="link"><?=$r['title']?></a>
     </li>
     <?php endforeach;?>
     </ul>
