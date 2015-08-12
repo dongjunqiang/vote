@@ -3,7 +3,14 @@ use \Yii;
 use \yii\helpers\StringHelper;
 use frontend\components\CommonHelper;
 ?>
-<?php $baseUrl = Yii::$app->getView()->theme->baseUrl;?>
+<?php
+$baseUrl = Yii::$app->getView()->theme->baseUrl;
+$this->title = $category['keyword'] . '_' . Yii::$app->params['title'];
+$this->registerMetaTag([
+    'name' => 'keywords',
+    'content' => $category['keyword']
+]);
+?>
 <nav id="mbx">当前位置：<a href="<?=Yii::$app->params['webUrl']?>">首页</a> &gt; <a href="<?=CommonHelper::getCategoryUrl($id)?>"><?=$category['keyword']?></a></nav>
 <?php if ($lists):?>
     <?php foreach ($lists as $list):?>

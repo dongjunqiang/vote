@@ -16,7 +16,7 @@ use yii\helpers\StringHelper;
 
 class ArticleController extends \yii\console\Controller
 {
-    const API_URL = 'http://dingwenhua.sinaapp.com/collection.php?url=';
+    //const API_URL = 'http://dingwenhua.sinaapp.com/collection.php?url=';
 
     public function actionIndex()
     {
@@ -34,10 +34,11 @@ class ArticleController extends \yii\console\Controller
         if (!$where) {
             $where = ['status' => 0];
         }
-        foreach (UrlHistoryModel::find()->select('id, keyword_id, copyfrom, url')->where($where)->orderBy('id DESC')->asArray()->limit(100)->each(10) as $urls) {
-            $data = file_get_contents(self::API_URL.$urls['url']);
+        foreach (UrlHistoryModel::find()->select('id, keyword_id, copyfrom, url')->where($where)->orderBy('id DESC')->asArray()->limit(50)->each(5) as $urls) {
+            $data = \common\helpers\Collection::getContent($urls['url']);
+            //$data = file_get_contents(self::API_URL.$urls['url']);
             if ($data) {
-                $data = json_decode($data, true);
+                //$data = json_decode($data, true);
                 if (!$data['title'] || !$data['content']){
                     UrlHistoryModel::updateAll(['status' => 1], array('id' => $urls['id']));
                     continue;
@@ -46,14 +47,17 @@ class ArticleController extends \yii\console\Controller
                     $model = new ArticleModel();
                     $model->title = $data['title'];
                     $model->keyword_id = $urls['keyword_id'];
-                    $model->description = StringHelper::truncate(str_replace(array("'","\r\n","\t",'&ldquo;','&rdquo;','&nbsp;'), '', strip_tags($data['content'])), 200);
+                    $model->description = StringHelper::truncate(str_replace(array("'","\r\n","\t",'&ldquo;','&rdquo;','&nbsp;'), '', strip_tags($data['content'])), 130);
                     $model->copyfrom = $urls['copyfrom'];
 
                     $content = Attachment::downloadThumb($data['content']);
-                    $thumb = self::getFirstPic($content);
-                    if (Attachment::checkPicWidth($thumb)) {
+                    //var_dump($content);exit;
+                    if ($thumb = self::getFirstPic($content)) {
                         $model->thumb = $thumb;
                     }
+                    // if (Attachment::checkPicWidth($thumb)) {
+                    //     $model->thumb = $thumb;
+                    // }
 
                     $model->save();
 
@@ -76,5 +80,6 @@ class ArticleController extends \yii\console\Controller
         if (preg_match("/(src)=([\"|']?)([^ \"'>]+\.(gif|jpg|jpeg|bmp|png))\\2/i", $content, $match)) {
             return $match[3];
         }
+        return false;
     }
 }

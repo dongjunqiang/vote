@@ -41,6 +41,7 @@ return [
             'enableStrictParsing' => false,
             'suffix' => '.html',
             'rules' => [
+                'random' => 'content/random',
                 '<page:\d+>' => 'content/index',
                 '<pinyin:[\w-]+>/list_<id:\d+>_?<page:\d+>?' => 'content/list',
                 '<pinyin:[\w-]+>/show_<id:\d+>' => 'content/show',

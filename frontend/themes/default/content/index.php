@@ -2,6 +2,15 @@
 use \Yii;
 use \yii\helpers\StringHelper;
 use frontend\components\CommonHelper;
+$this->title = Yii::$app->params['indexTitle'];
+$this->registerMetaTag([
+    'name' => 'keywords',
+    'content' => \Yii::$app->params['keyword']
+]);
+$this->registerMetaTag([
+    'name' => 'description',
+    'content' => \Yii::$app->params['description']
+]);
 ?>
 <?php foreach ($lists as $list):?>
     <?php $catUrl = CommonHelper::getCategoryUrl($list['id'])?>

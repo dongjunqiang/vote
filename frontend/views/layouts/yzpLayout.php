@@ -56,7 +56,7 @@ $baseUrl = \Yii::$app->request->baseUrl;
                 <span class="tagtitle">热门关键词+</span>
                 <div class="tagg">
                     <ul id="menu-keywords" class="menu">
-                    <?php if ($this->beginCache('hot_keywords', ['duration' => 1800])):?>
+                    <?php if ($this->beginCache('hot_keywords_cache', ['duration' => 1800])):?>
                         <?php foreach (\common\api\cms\KeywordApi::getHotKeywords(20) as $r):?>
                         <li><a href="<?=CommonHelper::getCategoryUrl($r['keywordInfo']['id'])?>"><?=$r['keywordInfo']['keyword']?></a></li>
                     <?php
@@ -72,7 +72,7 @@ $baseUrl = \Yii::$app->request->baseUrl;
         <div class="sitebar_list">
             <h4 class="sitebar_title">精评文章</h4>
             <ul class="sitebar_list_ul">
-                <?php if ($this->beginCache('hot_articles', ['duration' => 3600])):?>
+                <?php if ($this->beginCache('hot_articles_cache', ['duration' => 3600])):?>
                 <?php foreach (\common\api\cms\ArticleApi::getHotArticle(20) as $r):?>
                 <li><a href="<?=CommonHelper::getArticleUrl($r['kid'], $r['aid'])?>" title="<?=Html::encode($r['articleInfo']['title'])?>"> <?=\yii\helpers\StringHelper::truncate($r['articleInfo']['title'], 23,'')?></a></li>
                 <?php

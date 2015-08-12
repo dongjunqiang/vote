@@ -5,6 +5,10 @@ $this->registerMetaTag([
     'name' => 'keywords',
     'content' => $relateWords ? implode(',', $relateWords) : \Yii::$app->params['keyword']
 ]);
+$this->registerMetaTag([
+    'name' => 'description',
+    'content' => \yii\helpers\StringHelper::truncate($data['description'], 80)
+]);
 ?>
 <nav id="mbx">当前位置：<a href="<?=Yii::$app->params['webUrl']?>">
         首页
@@ -69,13 +73,13 @@ endif;
 <!--相关文章-->
 <div class="xianguan">
     <div class="xianguantitle">相关文章</div>
-<?php if ($this->beginCache('show_relate_'.$data['id'], ['duration' => 3600])):?>
+<?php if ($this->beginCache('show_relate_'.$data['id'], ['duration' => 1800])):?>
     <?php $articles = \common\api\cms\ArticleApi::getRelatedArticles($data['keyword_id'], 4);?>
     <ul class="pic">
     <?php foreach ($articles as $r):?>
         <?php $url = \frontend\components\CommonHelper::getArticleUrl($r['keyword_id'], $r['id'])?>
     <li>
-        <a href="<?=$url?>"><img width="400" height="244" src="<?=$r['thumb']?>" alt="<?=\yii\helpers\Html::encode($r['title'])?>" /></a>
+        <a href="<?=$url?>"><img width="400" height="244" src="<?php echo $r['thumb'] ? $r['thumb'] : Yii::$app->getView()->theme->baseUrl.'/images/default.jpg'; ?>" alt="<?=\yii\helpers\Html::encode($r['title'])?>" /></a>
         <a rel="bookmark" href="<?=$url?>" title="<?=\yii\helpers\Html::encode($r['title'])?>" class="link"><?=$r['title']?></a>
     </li>
     <?php endforeach;?>
@@ -88,14 +92,14 @@ endif;
 <!--相关文章-->
 
 <!--高速版-->
-<!--<div id="SOHUCS"></div>-->
-<!--<script charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/changyan.js" ></script>-->
-<!--<script type="text/javascript">-->
-<!--    window.changyan.api.config({-->
-<!--        appid: 'cyrUsAQkY',-->
-<!--        conf: 'prod_3274dad3c464912ca6b376ec36383c72'-->
-<!--    });-->
-<!--</script>-->
+<div id="SOHUCS"></div>
+<script charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+    window.changyan.api.config({
+        appid: 'cyrUsAQkY',
+        conf: 'prod_3274dad3c464912ca6b376ec36383c72'
+    });
+</script>
 
 <?php
 Yii::$app->view->registerJs('
