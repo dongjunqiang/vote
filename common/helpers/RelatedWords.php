@@ -13,14 +13,19 @@ class RelatedWords
 
     public static function getWords($key, $num = 5)
     {
-        $num = (int)$num;
-        $url = self::API_URL . $key;
-        $data = file_get_contents($url);
-        if ($data) {
-            $data = json_decode($data, true);
-            return $data ? array_slice($data, 0, $num) : $data;
+        try {
+            $num = (int)$num;
+            $url = self::API_URL . $key;
+            $data = file_get_contents($url);
+            if ($data) {
+                $data = json_decode($data, true);
+                return $data ? array_slice($data, 0, $num) : $data;
+            }
+            return [];
+        } catch (\Exception $e) {
+            \Yii::error($e->getMessage());
+            return [];
         }
-        return [];
     }
 
     public static function getWordsByCache($key, $num = 5)

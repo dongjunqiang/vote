@@ -110,6 +110,16 @@ $baseUrl = \Yii::$app->request->baseUrl;
     <!--about-->
 </footer>
 <?php $this->endBody() ?>
+<!-- 百度统计 -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?6ce933ac28fb618befb539105093f65c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 </body>
 </html>
 <?php $this->endPage() ?>
